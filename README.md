@@ -2,15 +2,23 @@
 
 ## Stack
 
-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This template has the following stack elements set up already:
+
+- A [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 - It also includes [Storybook](https://storybook.js.org/), components and stories are stored in the stories folder
 
-- Styling uses [Stitches](https://stitches.dev/) base config with design tokens is in file stitches.config.ts
+- Styling uses [Stitches](https://stitches.dev/), base config with design tokens is in file `stitches.config.ts`
 
 - Tests with [React testing library](https://testing-library.com/docs/react-testing-library/intro)
 
-You can find the example styled button component in stories folder
+You can find the example styled button component in the `stories/` folder. This component is there to give you an example of a working component using all parts of the stack together.
+
+**This example component should not be considered as a model to follow or the best practice and can even be deleted from your final code**
+
+Similarly, the stitches.config.ts file can be modified to suit your needs.
+
+The main purpose of this example is to make sure that all features are functional on your local dev environment, make sure that you can see this component in storybook, tests pass and the next app can be launched and built **before starting, and after your finish** your coding challenge.
 
 ## Requirements
 

@@ -42,31 +42,31 @@ export const Button = ({
     variants: {
       color: {
         primary: {
-          backgroundColor: "$purple500",
-          color: "$lightTextColor",
+          backgroundColor: "$primary",
+          color: "hsl(225,37%,92%)",
           "&:hover": {
-            backgroundColor: "$purple700",
+            backgroundColor: "hsl(252,78%,40%)",
           },
         },
         secondary: {
-          backgroundColor: "$gray500",
+          backgroundColor: "$secondary",
           "&:hover": {
-            backgroundColor: "$gray300",
+            backgroundColor: "hsl(206,10%,90%)",
           },
         },
       },
       size: {
         small: {
-          fontSize: "$1",
-          padding: "$2 $3",
+          fontSize: "12px",
+          padding: "10px 15px",
         },
         medium: {
-          fontSize: "$2",
-          padding: "$2 $4",
+          fontSize: "14px",
+          padding: "11px 20px",
         },
         large: {
-          fontSize: "$3",
-          padding: "$2 $5",
+          fontSize: "16px",
+          padding: "12px 25px",
         },
       },
     },
